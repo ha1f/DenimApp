@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C8CBB5794D806E19D373E4B /* Pods_denimAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D010A29F5E3EB0F38CF7B1 /* Pods_denimAppUITests.framework */; };
+		273967D2DED7FECA6C69B4B1 /* Pods_denimAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA88DC0DC247DFB07D88C615 /* Pods_denimAppTests.framework */; };
+		31154C825D5714D6CA49C159 /* Pods_denimApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ADCA4E126F4289F8CAE4A2 /* Pods_denimApp.framework */; };
+		8794121B1E46B9AE00C9E192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8794121A1E46B9AE00C9E192 /* AppDelegate.swift */; };
+		8794121D1E46B9AE00C9E192 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8794121C1E46B9AE00C9E192 /* ViewController.swift */; };
+		879412201E46B9AF00C9E192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8794121E1E46B9AF00C9E192 /* Main.storyboard */; };
+		879412221E46B9AF00C9E192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879412211E46B9AF00C9E192 /* Assets.xcassets */; };
+		879412251E46B9AF00C9E192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879412231E46B9AF00C9E192 /* LaunchScreen.storyboard */; };
+		879412301E46B9AF00C9E192 /* denimAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8794122F1E46B9AF00C9E192 /* denimAppTests.swift */; };
+		8794123B1E46B9AF00C9E192 /* denimAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8794123A1E46B9AF00C9E192 /* denimAppUITests.swift */; };
+		879412491E46C60400C9E192 /* g-star.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 879412481E46C60400C9E192 /* g-star.jpeg */; };
+		8794124D1E46E9DF00C9E192 /* CustmoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8794124C1E46E9DF00C9E192 /* CustmoCell.swift */; };
+		8794124F1E4716D300C9E192 /* DenimDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8794124E1E4716D300C9E192 /* DenimDetail.swift */; };
+		879412E11E473F1000C9E192 /* PDRealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879412E01E473F1000C9E192 /* PDRealmService.swift */; };
+		879412E51E48924F00C9E192 /* InputFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879412E41E48924F00C9E192 /* InputFormViewController.swift */; };
+		879412E71E48CE2600C9E192 /* ProductPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879412E61E48CE2600C9E192 /* ProductPageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8794122C1E46B9AF00C9E192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8794120F1E46B9AE00C9E192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879412161E46B9AE00C9E192;
+			remoteInfo = denimApp;
+		};
+		879412371E46B9AF00C9E192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8794120F1E46B9AE00C9E192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879412161E46B9AE00C9E192;
+			remoteInfo = denimApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06D296AD98E664502A760ADC /* Pods-denimAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-denimAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-denimAppTests/Pods-denimAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		14ADCA4E126F4289F8CAE4A2 /* Pods_denimApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_denimApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC339C838CB7FC4334CA0E6 /* Pods-denimAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-denimAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-denimAppUITests/Pods-denimAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		50FB68B7463BA9FF70699EDC /* Pods-denimApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-denimApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-denimApp/Pods-denimApp.debug.xcconfig"; sourceTree = "<group>"; };
+		74D010A29F5E3EB0F38CF7B1 /* Pods_denimAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_denimAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		879412171E46B9AE00C9E192 /* denimApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = denimApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8794121A1E46B9AE00C9E192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8794121C1E46B9AE00C9E192 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8794121F1E46B9AF00C9E192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		879412211E46B9AF00C9E192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		879412241E46B9AF00C9E192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		879412261E46B9AF00C9E192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8794122B1E46B9AF00C9E192 /* denimAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = denimAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8794122F1E46B9AF00C9E192 /* denimAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = denimAppTests.swift; sourceTree = "<group>"; };
+		879412311E46B9AF00C9E192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879412361E46B9AF00C9E192 /* denimAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = denimAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8794123A1E46B9AF00C9E192 /* denimAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = denimAppUITests.swift; sourceTree = "<group>"; };
+		8794123C1E46B9AF00C9E192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879412481E46C60400C9E192 /* g-star.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "g-star.jpeg"; sourceTree = "<group>"; };
+		8794124C1E46E9DF00C9E192 /* CustmoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustmoCell.swift; path = ../CustmoCell.swift; sourceTree = "<group>"; };
+		8794124E1E4716D300C9E192 /* DenimDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DenimDetail.swift; sourceTree = "<group>"; };
+		879412E01E473F1000C9E192 /* PDRealmService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDRealmService.swift; sourceTree = "<group>"; };
+		879412E41E48924F00C9E192 /* InputFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputFormViewController.swift; sourceTree = "<group>"; };
+		879412E61E48CE2600C9E192 /* ProductPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductPageViewController.swift; sourceTree = "<group>"; };
+		AA88DC0DC247DFB07D88C615 /* Pods_denimAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_denimAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDA5C5E3E16037BA3D34075 /* Pods-denimAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-denimAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-denimAppUITests/Pods-denimAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B406F895DF3BA83ADE859E58 /* Pods-denimApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-denimApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-denimApp/Pods-denimApp.release.xcconfig"; sourceTree = "<group>"; };
+		E8BF3014A6238DC3DED181F7 /* Pods-denimAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-denimAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-denimAppTests/Pods-denimAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		879412141E46B9AE00C9E192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31154C825D5714D6CA49C159 /* Pods_denimApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879412281E46B9AF00C9E192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273967D2DED7FECA6C69B4B1 /* Pods_denimAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879412331E46B9AF00C9E192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8CBB5794D806E19D373E4B /* Pods_denimAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40BEC58CB44806F78801324A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50FB68B7463BA9FF70699EDC /* Pods-denimApp.debug.xcconfig */,
+				B406F895DF3BA83ADE859E58 /* Pods-denimApp.release.xcconfig */,
+				E8BF3014A6238DC3DED181F7 /* Pods-denimAppTests.debug.xcconfig */,
+				06D296AD98E664502A760ADC /* Pods-denimAppTests.release.xcconfig */,
+				4FC339C838CB7FC4334CA0E6 /* Pods-denimAppUITests.debug.xcconfig */,
+				ABDA5C5E3E16037BA3D34075 /* Pods-denimAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F080012AC54A523C3BFFA8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14ADCA4E126F4289F8CAE4A2 /* Pods_denimApp.framework */,
+				AA88DC0DC247DFB07D88C615 /* Pods_denimAppTests.framework */,
+				74D010A29F5E3EB0F38CF7B1 /* Pods_denimAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8794120E1E46B9AE00C9E192 = {
+			isa = PBXGroup;
+			children = (
+				879412191E46B9AE00C9E192 /* denimApp */,
+				8794122E1E46B9AF00C9E192 /* denimAppTests */,
+				879412391E46B9AF00C9E192 /* denimAppUITests */,
+				879412181E46B9AE00C9E192 /* Products */,
+				40BEC58CB44806F78801324A /* Pods */,
+				4F080012AC54A523C3BFFA8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		879412181E46B9AE00C9E192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				879412171E46B9AE00C9E192 /* denimApp.app */,
+				8794122B1E46B9AF00C9E192 /* denimAppTests.xctest */,
+				879412361E46B9AF00C9E192 /* denimAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		879412191E46B9AE00C9E192 /* denimApp */ = {
+			isa = PBXGroup;
+			children = (
+				8794124C1E46E9DF00C9E192 /* CustmoCell.swift */,
+				8794121A1E46B9AE00C9E192 /* AppDelegate.swift */,
+				8794121C1E46B9AE00C9E192 /* ViewController.swift */,
+				879412E61E48CE2600C9E192 /* ProductPageViewController.swift */,
+				879412E41E48924F00C9E192 /* InputFormViewController.swift */,
+				879412E01E473F1000C9E192 /* PDRealmService.swift */,
+				8794124E1E4716D300C9E192 /* DenimDetail.swift */,
+				8794121E1E46B9AF00C9E192 /* Main.storyboard */,
+				879412211E46B9AF00C9E192 /* Assets.xcassets */,
+				879412481E46C60400C9E192 /* g-star.jpeg */,
+				879412231E46B9AF00C9E192 /* LaunchScreen.storyboard */,
+				879412261E46B9AF00C9E192 /* Info.plist */,
+			);
+			path = denimApp;
+			sourceTree = "<group>";
+		};
+		8794122E1E46B9AF00C9E192 /* denimAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8794122F1E46B9AF00C9E192 /* denimAppTests.swift */,
+				879412311E46B9AF00C9E192 /* Info.plist */,
+			);
+			path = denimAppTests;
+			sourceTree = "<group>";
+		};
+		879412391E46B9AF00C9E192 /* denimAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8794123A1E46B9AF00C9E192 /* denimAppUITests.swift */,
+				8794123C1E46B9AF00C9E192 /* Info.plist */,
+			);
+			path = denimAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		879412161E46B9AE00C9E192 /* denimApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8794123F1E46B9AF00C9E192 /* Build configuration list for PBXNativeTarget "denimApp" */;
+			buildPhases = (
+				429A9EB41305B3536F477B4F /* [CP] Check Pods Manifest.lock */,
+				879412131E46B9AE00C9E192 /* Sources */,
+				879412141E46B9AE00C9E192 /* Frameworks */,
+				879412151E46B9AE00C9E192 /* Resources */,
+				8A3F081A5C123B801FF3588A /* [CP] Embed Pods Frameworks */,
+				9F1AC7DDBAFC00F5A94BC53A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = denimApp;
+			productName = denimApp;
+			productReference = 879412171E46B9AE00C9E192 /* denimApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8794122A1E46B9AF00C9E192 /* denimAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879412421E46B9AF00C9E192 /* Build configuration list for PBXNativeTarget "denimAppTests" */;
+			buildPhases = (
+				8E2AC6FBB5C2DD314D650E61 /* [CP] Check Pods Manifest.lock */,
+				879412271E46B9AF00C9E192 /* Sources */,
+				879412281E46B9AF00C9E192 /* Frameworks */,
+				879412291E46B9AF00C9E192 /* Resources */,
+				E96F0E8BEFF5F20317427227 /* [CP] Embed Pods Frameworks */,
+				E05833CD76CB17B9923A5FE8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8794122D1E46B9AF00C9E192 /* PBXTargetDependency */,
+			);
+			name = denimAppTests;
+			productName = denimAppTests;
+			productReference = 8794122B1E46B9AF00C9E192 /* denimAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		879412351E46B9AF00C9E192 /* denimAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879412451E46B9AF00C9E192 /* Build configuration list for PBXNativeTarget "denimAppUITests" */;
+			buildPhases = (
+				68B321963A5D035F4D45012A /* [CP] Check Pods Manifest.lock */,
+				879412321E46B9AF00C9E192 /* Sources */,
+				879412331E46B9AF00C9E192 /* Frameworks */,
+				879412341E46B9AF00C9E192 /* Resources */,
+				0EF7829E6AF4306508586482 /* [CP] Embed Pods Frameworks */,
+				733244898F48B4328E02995C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				879412381E46B9AF00C9E192 /* PBXTargetDependency */,
+			);
+			name = denimAppUITests;
+			productName = denimAppUITests;
+			productReference = 879412361E46B9AF00C9E192 /* denimAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8794120F1E46B9AE00C9E192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = kota;
+				TargetAttributes = {
+					879412161E46B9AE00C9E192 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					8794122A1E46B9AF00C9E192 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 879412161E46B9AE00C9E192;
+					};
+					879412351E46B9AF00C9E192 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 879412161E46B9AE00C9E192;
+					};
+				};
+			};
+			buildConfigurationList = 879412121E46B9AE00C9E192 /* Build configuration list for PBXProject "denimApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8794120E1E46B9AE00C9E192;
+			productRefGroup = 879412181E46B9AE00C9E192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				879412161E46B9AE00C9E192 /* denimApp */,
+				8794122A1E46B9AF00C9E192 /* denimAppTests */,
+				879412351E46B9AF00C9E192 /* denimAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		879412151E46B9AE00C9E192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879412251E46B9AF00C9E192 /* LaunchScreen.storyboard in Resources */,
+				879412491E46C60400C9E192 /* g-star.jpeg in Resources */,
+				879412221E46B9AF00C9E192 /* Assets.xcassets in Resources */,
+				879412201E46B9AF00C9E192 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879412291E46B9AF00C9E192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879412341E46B9AF00C9E192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EF7829E6AF4306508586482 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-denimAppUITests/Pods-denimAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		429A9EB41305B3536F477B4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68B321963A5D035F4D45012A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		733244898F48B4328E02995C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-denimAppUITests/Pods-denimAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3F081A5C123B801FF3588A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-denimApp/Pods-denimApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E2AC6FBB5C2DD314D650E61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F1AC7DDBAFC00F5A94BC53A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-denimApp/Pods-denimApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E05833CD76CB17B9923A5FE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-denimAppTests/Pods-denimAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E96F0E8BEFF5F20317427227 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-denimAppTests/Pods-denimAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		879412131E46B9AE00C9E192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879412E51E48924F00C9E192 /* InputFormViewController.swift in Sources */,
+				8794124F1E4716D300C9E192 /* DenimDetail.swift in Sources */,
+				879412E71E48CE2600C9E192 /* ProductPageViewController.swift in Sources */,
+				8794121D1E46B9AE00C9E192 /* ViewController.swift in Sources */,
+				8794124D1E46E9DF00C9E192 /* CustmoCell.swift in Sources */,
+				8794121B1E46B9AE00C9E192 /* AppDelegate.swift in Sources */,
+				879412E11E473F1000C9E192 /* PDRealmService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879412271E46B9AF00C9E192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879412301E46B9AF00C9E192 /* denimAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879412321E46B9AF00C9E192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8794123B1E46B9AF00C9E192 /* denimAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8794122D1E46B9AF00C9E192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 879412161E46B9AE00C9E192 /* denimApp */;
+			targetProxy = 8794122C1E46B9AF00C9E192 /* PBXContainerItemProxy */;
+		};
+		879412381E46B9AF00C9E192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 879412161E46B9AE00C9E192 /* denimApp */;
+			targetProxy = 879412371E46B9AF00C9E192 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8794121E1E46B9AF00C9E192 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8794121F1E46B9AF00C9E192 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		879412231E46B9AF00C9E192 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879412241E46B9AF00C9E192 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8794123D1E46B9AF00C9E192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8794123E1E46B9AF00C9E192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		879412401E46B9AF00C9E192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50FB68B7463BA9FF70699EDC /* Pods-denimApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = denimApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planningdev.denimApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		879412411E46B9AF00C9E192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B406F895DF3BA83ADE859E58 /* Pods-denimApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = denimApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planningdev.denimApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		879412431E46B9AF00C9E192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8BF3014A6238DC3DED181F7 /* Pods-denimAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = denimAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planningdev.denimAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/denimApp.app/denimApp";
+			};
+			name = Debug;
+		};
+		879412441E46B9AF00C9E192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06D296AD98E664502A760ADC /* Pods-denimAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = denimAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planningdev.denimAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/denimApp.app/denimApp";
+			};
+			name = Release;
+		};
+		879412461E46B9AF00C9E192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FC339C838CB7FC4334CA0E6 /* Pods-denimAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = denimAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planningdev.denimAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = denimApp;
+			};
+			name = Debug;
+		};
+		879412471E46B9AF00C9E192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABDA5C5E3E16037BA3D34075 /* Pods-denimAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = denimAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planningdev.denimAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = denimApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		879412121E46B9AE00C9E192 /* Build configuration list for PBXProject "denimApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8794123D1E46B9AF00C9E192 /* Debug */,
+				8794123E1E46B9AF00C9E192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8794123F1E46B9AF00C9E192 /* Build configuration list for PBXNativeTarget "denimApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879412401E46B9AF00C9E192 /* Debug */,
+				879412411E46B9AF00C9E192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		879412421E46B9AF00C9E192 /* Build configuration list for PBXNativeTarget "denimAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879412431E46B9AF00C9E192 /* Debug */,
+				879412441E46B9AF00C9E192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		879412451E46B9AF00C9E192 /* Build configuration list for PBXNativeTarget "denimAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879412461E46B9AF00C9E192 /* Debug */,
+				879412471E46B9AF00C9E192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8794120F1E46B9AE00C9E192 /* Project object */;
+}
