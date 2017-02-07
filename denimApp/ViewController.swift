@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     let denims = PDRealmService.service().getAllData(Denim.self)!.allObjects
-    let thumbnailImage = UIImage(data: Denim)
+//    let thumbnailImage = UIImage(data: Denim)
     
     @IBInspectable
     var bordercolor:UIColor = .black
@@ -53,16 +53,15 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let denim = denims[indexPath.row]
-        if denim != nil {
-            performSegue(withIdentifier: "toProductPageViewController",sender: nil)
-        }
+        performSegue(withIdentifier: "toProductPageViewController", sender: denim)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any!) {
         if (segue.identifier == "toProductPageViewController") {
             let subVC = (segue.destination as? ProductPageViewController)!
-            subVC.thumbnailImage = UIImage(data: denims)
-            
+            if let data = (sender as? Denim)?.thumbnailImage as? Data {
+                subVC.thumbnailImage.image = UIImage(data: data)
+            }
         }
     }
     
